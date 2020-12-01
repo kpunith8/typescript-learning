@@ -1,0 +1,19 @@
+{
+  "name": "typescript-samples",
+  "version": "1.0.0",
+  "description": "TypeScript samples",
+  "main": "index.js",
+  "scripts": {
+    "compile:ts": "tsc --watch",
+    "start": "nodemon dist/basic-sample.js"
+  },
+  "keywords": [
+    "TypeScript",
+    "Examples"
+  ],
+  "author": "Punith K",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.6"
+  }
+}
