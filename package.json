@@ -4,8 +4,8 @@
   "description": "TypeScript samples",
   "main": "index.js",
   "scripts": {
-    "compile:ts": "tsc --watch",
-    "start": "nodemon dist/basic-sample.js"
+    "compile": "tsc --watch",
+    "start": "nodemon dist/basics.js"
   },
   "keywords": [
     "TypeScript",
@@ -13,7 +13,9 @@
   ],
   "author": "Punith K",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^3.9.6"
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
   }
 }
