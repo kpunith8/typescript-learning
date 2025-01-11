@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "tsc --watch",
-    "start": "nodemon dist/basics.js"
+    "start": "nodemon dist/decorator-ex.js"
   },
   "keywords": [
     "TypeScript",
@@ -14,8 +14,12 @@
   "author": "Punith K",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^15.12.4",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.4"
+    "@types/axios": "^0.14.0",
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
